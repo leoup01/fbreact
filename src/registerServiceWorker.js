@@ -50,7 +50,7 @@ export default function register() {
       }
     });
   }else{
-    console.log("wont register sw. Current env: ",process.evn.NODE_ENV);
+    console.log("wont register sw. Current env.");
   }
 }
 
